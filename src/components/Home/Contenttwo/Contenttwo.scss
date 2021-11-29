@@ -1,0 +1,146 @@
+ .books-img {
+   width: 165px;
+   height: 127px;
+   position: relative;
+ }
+ .div-books{
+   position: relative;
+   margin-right: 20px;
+   margin-left: 0;
+   height: fit-content;
+ }
+ .div-books-1{
+   position: relative;
+   margin-right: 73px;
+   margin-left: 0;
+   height: fit-content;
+ }
+ .digital-camera-img{
+   width: 113px;
+   height: 127px;
+ }
+ .main-container-content-two{
+   margin: 0;
+   display: flex;
+   flex-wrap: wrap;
+   flex:50%;
+ }
+ .content-two-main {
+   display: flex;
+   margin-bottom: 20px;
+ }
+ .h3-signup{
+   font-size: 28px;
+   line-height: 40px;
+   color: #000;
+   font-family: acumin-pro, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+ }
+ .signup-details{
+   color: #929292;
+   margin-bottom: 30px;
+   font-size: 1.1rem!important;
+ }
+ .login{
+   width: 100px;
+   line-height: 35px;
+   display: inline-block;
+   text-align: center;
+   border-radius: 5px;
+   text-decoration: none;
+   color: #fff;
+   font-size: .9375rem;
+   font-family: roboto-regular;
+ }
+ a:hover{
+   color: white !important;
+   text-decoration: none !important;
+
+ }
+ .div-login{
+   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+   background-color: #f9f9f9;
+   padding: 25px;
+   height: fit-content;
+ }
+ .sports-img{
+   width: 303px;
+   height: 127px;
+ }
+ .sports-div{
+   display: block;
+   margin: 0;
+
+ }
+ .headline{
+   font-size: 1.1rem;
+   font-family: acumin-pro, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   margin-bottom: 0;
+ }
+ .headline-h2{
+   font-size: 1.1rem;
+   font-family: acumin-pro, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   text-overflow: ellipsis;
+   display: block;
+   overflow: hidden;
+   white-space: nowrap;
+ }
+.first-container {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+.description {
+  overflow: hidden;
+  margin: 0;
+  /*width: 117px;*/
+}
+
+#div-books{
+  margin-right: 14px;
+  width: 303px;
+}
+#div-reviews{
+  margin-left: 14px;
+  width: 303px;
+}
+.login-main{
+  padding-left: 15px;
+}
+.books-main{
+padding-right: 15px
+}
+.headline-sports{
+  font-size: 1.1rem;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 12px 0;
+  color: #0a0a0a;
+  line-height: 22px;
+  letter-spacing: normal;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fa-star path{
+  fill: #fc0;
+}
+#unfilled-star path{
+  fill: #c6c6c6;
+}
+#last-unfilled-star :last-child path{
+fill: #c6c6c6;
+}
+#unfilled-star-NBA path,#unfilled-star-malwai path,#unfilled-star-trump path,#unfilled-star-dollar path,#unfilled-star-shoe path{
+  fill: #c6c6c6;
+}
+#headline,#headline-kobe{
+  display: none;
+  margin-bottom: 10px;
+}

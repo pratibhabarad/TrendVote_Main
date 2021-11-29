@@ -1,0 +1,36 @@
+
+.left{
+ float: left;
+  padding:15px 0;
+
+}
+
+.internal{
+    margin: 0;
+    padding: 15px 18px;
+ display: inline-block;
+}
+
+.center{
+ float: left;
+ overflow: hidden;
+//  width:50%;
+ white-space: nowrap;
+}
+
+.right{
+  padding:15px 0;
+
+}
+  .btn-slide{
+    border:none;
+    background:none;
+    }
+
+#scroll-left path,#scroll-right path{
+ fill: grey;
+}
+ .nav-slider-main{
+ display:none;
+     padding: 0 15px;
+ }
